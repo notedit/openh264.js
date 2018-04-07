@@ -3,7 +3,7 @@
 all : h264-decoder.js
 
 clean :
-	rm -f h264-decoder.js
+	rm -f dist/h264-decoder.js
 	cd openh264 && emmake make clean OS=linux ARCH=asmjs
 
 h264-decoder.js : h264-decoder.cpp openh264/libopenh264.so
@@ -15,7 +15,7 @@ h264-decoder.js : h264-decoder.cpp openh264/libopenh264.so
 	  -s NO_FILESYSTEM=1 \
 	  -s NO_BROWSER=1 \
 	  -Iopenh264/codec/api/svc \
-	  -o h264-decoder.js \
+	  -o dist/h264-decoder.js \
 	  h264-decoder.cpp \
 	  openh264/libopenh264.so
 
