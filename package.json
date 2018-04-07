@@ -2,7 +2,7 @@
   "name": "openh264",
   "version": "1.0.0",
   "description": "build open264  js",
-  "main": "index.js",
+  "main": "dist/h264-decoder.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
