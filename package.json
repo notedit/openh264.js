@@ -1,0 +1,19 @@
+{
+  "name": "openh264",
+  "version": "1.0.0",
+  "description": "build open264  js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notedit/openh264.js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/notedit/openh264.js/issues"
+  },
+  "homepage": "https://github.com/notedit/openh264.js#readme",
+}
